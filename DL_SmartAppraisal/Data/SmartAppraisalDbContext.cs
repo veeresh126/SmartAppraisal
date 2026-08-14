@@ -16,7 +16,7 @@ namespace DL_SmartAppraisal.Data
         {
         }
 
-        public DbSet<UserDetail> UserDetails { get; set; }
+        public DbSet<UserDetail> UserDetails { get; set; } = null!;
 
         public DbSet<Role> Roles { get; set; }
     }

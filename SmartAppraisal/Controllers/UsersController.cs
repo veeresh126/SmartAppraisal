@@ -68,5 +68,35 @@ namespace SmartAppraisal.Controllers
 
             return NoContent();
         }
+
+        [HttpPost("login")]
+        public async Task<IActionResult> Login(LoginRequest request)
+        {
+            if (string.IsNullOrWhiteSpace(request.UserId) ||
+                string.IsNullOrWhiteSpace(request.Password))
+            {
+                return BadRequest("User ID and Password are required.");
+            }
+
+            var users = await _userService.GetAllAsync();
+
+            var user = users.FirstOrDefault(x =>
+                x.UserId == request.UserId &&
+                x.Password == request.Password &&
+                x.IsActive);
+
+            if (user == null)
+            {
+                return Unauthorized("Invalid User ID or Password.");
+            }
+
+            return Ok(new
+            {
+                message = "Login successful",
+                userId = user.UserId,
+                name = user.Name,
+                roleId = user.RoleId
+            });
+        }
     }
 }

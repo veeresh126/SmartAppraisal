@@ -20,41 +20,65 @@ build_property.TargetFrameworkVersion = v9.0
 build_property.EntryPointFilePath = 
 build_property.RootNamespace = SmartAppraisal
 build_property.RootNamespace = SmartAppraisal
-build_property.ProjectDir = C:\Users\veereshp\source\repos\SmartAppraisal\SmartAppraisal\
+build_property.ProjectDir = C:\Users\HP\source\repos\SmartAppraisal\SmartAppraisal\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\veereshp\source\repos\SmartAppraisal\SmartAppraisal
+build_property.MSBuildProjectDirectory = C:\Users\HP\source\repos\SmartAppraisal\SmartAppraisal
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/veereshp/source/repos/SmartAppraisal/SmartAppraisal/Views/Home/Index.cshtml]
+[C:/Users/HP/source/repos/SmartAppraisal/SmartAppraisal/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/veereshp/source/repos/SmartAppraisal/SmartAppraisal/Views/Home/Privacy.cshtml]
+[C:/Users/HP/source/repos/SmartAppraisal/SmartAppraisal/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/veereshp/source/repos/SmartAppraisal/SmartAppraisal/Views/Shared/Error.cshtml]
+[C:/Users/HP/source/repos/SmartAppraisal/SmartAppraisal/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/veereshp/source/repos/SmartAppraisal/SmartAppraisal/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/HP/source/repos/SmartAppraisal/SmartAppraisal/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/veereshp/source/repos/SmartAppraisal/SmartAppraisal/Views/_ViewImports.cshtml]
+[C:/Users/HP/source/repos/SmartAppraisal/SmartAppraisal/Views/UserManagement/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlck1hbmFnZW1lbnRcQ2hhbmdlUGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/SmartAppraisal/SmartAppraisal/Views/UserManagement/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlck1hbmFnZW1lbnRcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/SmartAppraisal/SmartAppraisal/Views/UserManagement/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlck1hbmFnZW1lbnRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/SmartAppraisal/SmartAppraisal/Views/UserManagement/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlck1hbmFnZW1lbnRcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/SmartAppraisal/SmartAppraisal/Views/Users/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/SmartAppraisal/SmartAppraisal/Views/Users/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/SmartAppraisal/SmartAppraisal/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/veereshp/source/repos/SmartAppraisal/SmartAppraisal/Views/_ViewStart.cshtml]
+[C:/Users/HP/source/repos/SmartAppraisal/SmartAppraisal/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/veereshp/source/repos/SmartAppraisal/SmartAppraisal/Views/Shared/_Layout.cshtml]
+[C:/Users/HP/source/repos/SmartAppraisal/SmartAppraisal/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ckrylpckab

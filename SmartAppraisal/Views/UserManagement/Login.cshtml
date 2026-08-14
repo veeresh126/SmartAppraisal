@@ -1,0 +1,262 @@
+﻿@{
+    ViewData["Title"] = "Login";
+}
+
+<style>
+
+    .login-container {
+        min-height: 75vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #f5f7fa;
+    }
+
+    .login-card {
+        width: 400px;
+        background: white;
+        padding: 35px;
+        border-radius: 10px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.12);
+    }
+
+        .login-card h2 {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+    .form-group {
+        margin-bottom: 18px;
+    }
+
+    label {
+        display: block;
+        font-weight: 600;
+        margin-bottom: 7px;
+    }
+
+    input {
+        width: 100%;
+        padding: 11px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    .login-button {
+        width: 100%;
+        padding: 11px;
+        border: none;
+        background: #007bff;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+        .login-button:hover {
+            background: #0056b3;
+        }
+
+        .login-button:disabled {
+            background: #6c757d;
+            cursor: not-allowed;
+        }
+
+    #message {
+        margin-top: 15px;
+        text-align: center;
+        padding: 10px;
+        border-radius: 5px;
+        display: none;
+    }
+
+    .error-message {
+        color: #721c24;
+        background: #f8d7da;
+        border: 1px solid #f5c6cb;
+    }
+
+    .success-message {
+        color: #155724;
+        background: #d4edda;
+        border: 1px solid #c3e6cb;
+    }
+
+</style>
+
+<div class="login-container">
+
+    <div class="login-card">
+
+        <h2>Login</h2>
+
+        <form id="loginForm">
+
+            <div class="form-group">
+
+                <label for="userId">
+                    User ID
+                </label>
+
+                <input type="text"
+                       id="userId"
+                       name="userId"
+                       placeholder="Enter User ID"
+                       required />
+
+            </div>
+
+            <div class="form-group">
+
+                <label for="password">
+                    Password
+                </label>
+
+                <input type="password"
+                       id="password"
+                       name="password"
+                       placeholder="Enter Password"
+                       required />
+
+            </div>
+
+            <button type="submit"
+                    id="loginButton"
+                    class="login-button">
+                Login
+            </button>
+
+            <div id="message"></div>
+
+        </form>
+
+    </div>
+
+</div>
+
+<script>
+
+    document.getElementById("loginForm")
+        .addEventListener("submit", async function(event) {
+
+            event.preventDefault();
+
+            const userId =
+                document.getElementById("userId").value.trim();
+
+            const password =
+                document.getElementById("password").value;
+
+            const messageElement =
+                document.getElementById("message");
+
+            const loginButton =
+                document.getElementById("loginButton");
+
+
+            // Clear previous message
+
+            messageElement.innerText = "";
+
+            messageElement.style.display = "none";
+
+            messageElement.className = "";
+
+
+            // Disable button while logging in
+
+            loginButton.disabled = true;
+
+            loginButton.innerText = "Logging in...";
+
+
+            try {
+
+                const response = await fetch(
+                    '/api/users/login',
+                    {
+                        method: 'POST',
+
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+
+                        body: JSON.stringify({
+                            userId: userId,
+                            password: password
+                        })
+                    }
+                );
+
+
+                if (!response.ok) {
+
+                    let errorMessage =
+                        "Invalid User ID or Password.";
+
+                    try {
+
+                        const text =
+                            await response.text();
+
+                        if (text) {
+                            errorMessage = text;
+                        }
+
+                    }
+                    catch {
+                        // Keep default error message
+                    }
+
+                    throw new Error(errorMessage);
+                }
+
+
+                // Login successful
+
+                messageElement.innerText =
+                    "Login successful!";
+
+                messageElement.className =
+                    "success-message";
+
+                messageElement.style.display =
+                    "block";
+
+
+                // Redirect to User Management
+
+                setTimeout(function() {
+
+                    window.location.href =
+                        '/UserManagement/Index?login=success';
+
+                }, 500);
+
+
+            }
+            catch (error) {
+
+                messageElement.innerText =
+                    error.message ||
+                    "Login failed.";
+
+                messageElement.className =
+                    "error-message";
+
+                messageElement.style.display =
+                    "block";
+
+
+                // Enable button again
+
+                loginButton.disabled = false;
+
+                loginButton.innerText = "Login";
+
+            }
+
+        });
+
+</script>

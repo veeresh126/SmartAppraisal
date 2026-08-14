@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace UT_SmartAppraisal
 {
-    internal class UserServiceTests
+    public class UserServiceTests
     {
     }
 }
