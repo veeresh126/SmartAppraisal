@@ -1,6 +1,5 @@
 ﻿using BL_SmartAppraisal.Interfaces;
 using DL_SmartAppraisal.Entities;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace SmartAppraisal.Controllers
@@ -10,38 +9,52 @@ namespace SmartAppraisal.Controllers
     public class UsersController : ControllerBase
     {
         private readonly IUserService _userService;
+        private readonly IEmailService _emailService;
 
-        public UsersController(IUserService userService)
+        public UsersController(
+            IUserService userService,
+            IEmailService emailService)
         {
             _userService = userService;
+            _emailService = emailService;
         }
+
 
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
-            var users = await _userService.GetAllAsync();
+            var users =
+                await _userService.GetAllAsync();
 
             return Ok(users);
         }
 
+
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
-            var user = await _userService.GetByIdAsync(id);
+            var user =
+                await _userService.GetByIdAsync(id);
 
             if (user == null)
+            {
                 return NotFound();
+            }
 
             return Ok(user);
         }
 
+
         [HttpPost]
-        public async Task<IActionResult> Create(UserDetail user)
+        public async Task<IActionResult> Create(
+            UserDetail user)
         {
-            var result = await _userService.CreateAsync(user);
+            var result =
+                await _userService.CreateAsync(user);
 
             return Ok(result);
         }
+
 
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(
@@ -50,53 +63,101 @@ namespace SmartAppraisal.Controllers
         {
             user.Id = id;
 
-            var result = await _userService.UpdateAsync(user);
+            var result =
+                await _userService.UpdateAsync(user);
 
             if (!result)
+            {
                 return NotFound();
+            }
 
             return NoContent();
         }
+
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
-            var result = await _userService.DeleteAsync(id);
+            var result =
+                await _userService.DeleteAsync(id);
 
             if (!result)
+            {
                 return NotFound();
+            }
 
             return NoContent();
         }
 
+
         [HttpPost("login")]
-        public async Task<IActionResult> Login(LoginRequest request)
+        public async Task<IActionResult> Login(
+            LoginRequest request)
         {
-            if (string.IsNullOrWhiteSpace(request.UserId) ||
-                string.IsNullOrWhiteSpace(request.Password))
+            if (
+                string.IsNullOrWhiteSpace(request.UserId) ||
+                string.IsNullOrWhiteSpace(request.Password)
+            )
             {
-                return BadRequest("User ID and Password are required.");
+                return BadRequest(
+                    "User ID and Password are required."
+                );
             }
 
-            var users = await _userService.GetAllAsync();
 
-            var user = users.FirstOrDefault(x =>
-                x.UserId == request.UserId &&
-                x.Password == request.Password &&
-                x.IsActive);
+            var users =
+                await _userService.GetAllAsync();
+
+
+            var user =
+                users.FirstOrDefault(x =>
+                    x.UserId == request.UserId &&
+                    x.Password == request.Password &&
+                    x.IsActive
+                );
+
 
             if (user == null)
             {
-                return Unauthorized("Invalid User ID or Password.");
+                return Unauthorized(
+                    "Invalid User ID or Password."
+                );
             }
 
-            return Ok(new
+
+            try
             {
-                message = "Login successful",
-                userId = user.UserId,
-                name = user.Name,
-                roleId = user.RoleId
-            });
+                await _emailService
+                    .SendLoginNotificationAsync(
+                        user.Email,
+                        user.Name
+                    );
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(
+                    "Email sending failed: "
+                    + ex.Message
+                );
+            }
+
+
+            return Ok(
+                new
+                {
+                    message =
+                        "Login successful",
+
+                    userId =
+                        user.UserId,
+
+                    name =
+                        user.Name,
+
+                    roleId =
+                        user.RoleId
+                }
+            );
         }
     }
 }

@@ -3,6 +3,7 @@
 }
 
 <style>
+
     .page-container {
         padding: 30px;
         background: #f5f7fa;
@@ -16,10 +17,10 @@
         margin-bottom: 25px;
     }
 
-    .page-header h2 {
-        margin: 0;
-        color: #333;
-    }
+        .page-header h2 {
+            margin: 0;
+            color: #333;
+        }
 
     .btn-create {
         background: #007bff;
@@ -30,16 +31,17 @@
         text-decoration: none;
     }
 
-    .btn-create:hover {
-        background: #0056b3;
-        color: white;
-    }
+        .btn-create:hover {
+            background: #0056b3;
+            color: white;
+        }
 
     .table-container {
         background: white;
         padding: 20px;
         border-radius: 8px;
         box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        overflow-x: auto;
     }
 
     table {
@@ -96,11 +98,14 @@
         display: none;
         border-radius: 5px;
     }
+
 </style>
+
 
 <div class="page-container">
 
     <div class="page-header">
+
         <h2>User Management</h2>
 
         <a asp-controller="UserManagement"
@@ -108,26 +113,45 @@
            class="btn-create">
             + Create User
         </a>
+
     </div>
 
-    <div id="message" class="message"></div>
+
+    <div id="message"
+         class="message">
+    </div>
+
 
     <div class="table-container">
 
         <table>
 
             <thead>
+
                 <tr>
+
                     <th>ID</th>
+
                     <th>User ID</th>
+
                     <th>Name</th>
+
+                    <th>Email</th>
+
                     <th>Mobile</th>
+
                     <th>Designation</th>
+
                     <th>Role</th>
+
                     <th>Status</th>
+
                     <th>Actions</th>
+
                 </tr>
+
             </thead>
+
 
             <tbody id="userTableBody">
             </tbody>
@@ -138,39 +162,84 @@
 
 </div>
 
+
 <script>
 
-    document.addEventListener("DOMContentLoaded", function() {
-        loadUsers();
-    });
+    document.addEventListener(
+        "DOMContentLoaded",
+        function() {
+
+            loadUsers();
+
+        }
+    );
+
 
     async function loadUsers() {
 
         try {
 
-            const response = await fetch('/api/users');
+            const response =
+                await fetch('/api/users');
+
 
             if (!response.ok) {
-                throw new Error("Unable to load users");
+
+                throw new Error(
+                    "Unable to load users"
+                );
+
             }
 
-            const users = await response.json();
 
-            const tbody = document.getElementById("userTableBody");
+            const users =
+                await response.json();
+
+
+            const tbody =
+                document.getElementById(
+                    "userTableBody"
+                );
+
 
             tbody.innerHTML = "";
 
+
             users.forEach(user => {
 
-                const row = document.createElement("tr");
+                const row =
+                    document.createElement("tr");
+
 
                 row.innerHTML = `
-                        <td>${user.id}</td>
-                        <td>${user.userId}</td>
-                        <td>${user.name}</td>
-                        <td>${user.mobile}</td>
-                        <td>${user.designation}</td>
-                        <td>${user.roleId}</td>
+
+                        <td>
+                            ${user.id}
+                        </td>
+
+                        <td>
+                            ${user.userId}
+                        </td>
+
+                        <td>
+                            ${user.name}
+                        </td>
+
+                        <td>
+                            ${user.email}
+                        </td>
+
+                        <td>
+                            ${user.mobile}
+                        </td>
+
+                        <td>
+                            ${user.designation}
+                        </td>
+
+                        <td>
+                            ${user.roleId}
+                        </td>
 
                         <td>
                             ${user.isActive
@@ -180,6 +249,7 @@
                         </td>
 
                         <td>
+
                             <button
                                 class="btn-edit"
                                 onclick="editUser(${user.id})">
@@ -191,8 +261,11 @@
                                 onclick="deleteUser(${user.id})">
                                 Delete
                             </button>
+
                         </td>
+
                     `;
+
 
                 tbody.appendChild(row);
 
@@ -202,40 +275,61 @@
         catch (error) {
 
             showMessage(
-                "Unable to load users: " + error.message,
+                "Unable to load users: "
+                + error.message,
                 true
             );
 
         }
+
     }
+
 
     function editUser(id) {
 
         window.location.href =
-            '/UserManagement/Create?id=' + id;
+            '/UserManagement/Create?id='
+            + id;
+
     }
+
 
     async function deleteUser(id) {
 
-        if (!confirm("Are you sure you want to delete this user?")) {
+        if (!confirm(
+            "Are you sure you want to delete this user?"
+        )) {
+
             return;
+
         }
+
 
         try {
 
             const response =
-                await fetch('/api/users/' + id, {
-                    method: 'DELETE'
-                });
+                await fetch(
+                    '/api/users/' + id,
+                    {
+                        method: 'DELETE'
+                    }
+                );
+
 
             if (!response.ok) {
-                throw new Error("Delete failed");
+
+                throw new Error(
+                    "Delete failed"
+                );
+
             }
+
 
             showMessage(
                 "User deleted successfully.",
                 false
             );
+
 
             loadUsers();
 
@@ -248,22 +342,40 @@
             );
 
         }
+
     }
 
-    function showMessage(message, error) {
+
+    function showMessage(
+        message,
+        error
+    ) {
 
         const element =
-            document.getElementById("message");
+            document.getElementById(
+                "message"
+            );
 
-        element.innerText = message;
 
-        element.style.display = "block";
+        element.innerText =
+            message;
+
+
+        element.style.display =
+            "block";
+
 
         element.style.background =
-            error ? "#f8d7da" : "#d4edda";
+            error
+                ? "#f8d7da"
+                : "#d4edda";
+
 
         element.style.color =
-            error ? "#721c24" : "#155724";
+            error
+                ? "#721c24"
+                : "#155724";
+
     }
 
 </script>

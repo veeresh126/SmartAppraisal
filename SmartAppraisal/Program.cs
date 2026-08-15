@@ -1,5 +1,6 @@
 using BL_SmartAppraisal.Interfaces;
 using BL_SmartAppraisal.Services;
+using BL_SmartAppraisal.Settings;
 using DL_SmartAppraisal.Data;
 using DL_SmartAppraisal.Interfaces;
 using DL_SmartAppraisal.Repositories;
@@ -15,9 +16,14 @@ builder.Services.AddDbContext<SmartAppraisalDbContext>(options =>
     options.UseSqlServer(
         builder.Configuration.GetConnectionString("SmartAppraisalConnection")));
 
+//Email Smtp
+builder.Services.Configure<EmailSettings>(
+    builder.Configuration.GetSection("EmailSettings"));
+
 // Register Repositories and Services
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IEmailService, EmailService>();
 
 // --- SWAGGER SERVICES ---
 builder.Services.AddEndpointsApiExplorer();

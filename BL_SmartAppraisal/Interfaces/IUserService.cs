@@ -18,5 +18,9 @@ namespace BL_SmartAppraisal.Interfaces
         Task<bool> UpdateAsync(UserDetail user);
 
         Task<bool> DeleteAsync(int id);
+
+        Task<UserDetail?> LoginAsync(
+        string userId,
+        string password);
     }
 }

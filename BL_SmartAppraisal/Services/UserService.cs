@@ -42,6 +42,17 @@ namespace BL_SmartAppraisal.Services
         {
             return await _userRepository.DeleteAsync(id);
         }
+        public async Task<UserDetail?> LoginAsync(
+    string userId,
+    string password)
+        {
+            var users = await _userRepository.GetAllAsync();
+
+            return users.FirstOrDefault(x =>
+                x.UserId == userId &&
+                x.Password == password &&
+                x.IsActive);
+        }
     }
 
 }
