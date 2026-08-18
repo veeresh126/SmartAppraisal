@@ -1,0 +1,131 @@
+﻿@model DL_SmartAppraisal.Entities.CaseStudy
+
+@{
+    ViewData["Title"] = "Review Case Study";
+}
+
+<style>
+    .review-container {
+        width: 700px;
+        margin: 30px auto;
+        border: 2px solid #222;
+        padding: 25px;
+    }
+
+    .section-title {
+        font-weight: bold;
+        text-decoration: underline;
+        margin-bottom: 10px;
+    }
+
+    .case-study-box {
+        border: 2px solid #333;
+        padding: 15px;
+        min-height: 100px;
+        margin-bottom: 20px;
+    }
+
+    .solution-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 25px;
+    }
+
+        .solution-table th,
+        .solution-table td {
+            border: 1px solid #333;
+            padding: 10px;
+        }
+
+    .comment-box {
+        width: 100%;
+        height: 100px;
+        border: 2px solid #777;
+        padding: 10px;
+    }
+
+    .submit-container {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .submit-button {
+        padding: 8px 30px;
+        border: 2px solid #222;
+        background: white;
+        font-weight: bold;
+        cursor: pointer;
+    }
+</style>
+
+<div class="review-container">
+
+    <div class="section-title">
+        Case study
+    </div>
+
+    <div class="case-study-box">
+        @Model.CaseStudyText
+    </div>
+
+    <table class="solution-table">
+
+        <thead>
+            <tr>
+                <th>Solution</th>
+                <th>Competency</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            @foreach (var solution in Model.Solutions.OrderBy(x => x.SolutionNumber))
+            {
+                <tr>
+
+                    <td>
+                        Soln@(solution.SolutionNumber)
+                        <br />
+                        @solution.SolutionText
+                    </td>
+
+                    <td>
+                        @if (solution.Competencies.Any())
+                        {
+                            foreach (var competency in solution.Competencies)
+                            {
+                                <div>
+                                    @competency.CompetencyName
+                                </div>
+                            }
+                        }
+                        else
+                        {
+                            <span>No competency</span>
+                        }
+                    </td>
+
+                </tr>
+            }
+
+        </tbody>
+
+    </table>
+
+    <div class="section-title">
+        Review comment
+    </div>
+
+    <textarea class="comment-box"
+              placeholder="Enter review comment"></textarea>
+
+    <div class="submit-container">
+
+        <button type="button"
+                class="submit-button">
+            Submit
+        </button>
+
+    </div>
+
+</div>

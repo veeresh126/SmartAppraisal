@@ -19,11 +19,21 @@ builder.Services.AddDbContext<SmartAppraisalDbContext>(options =>
 //Email Smtp
 builder.Services.Configure<EmailSettings>(
     builder.Configuration.GetSection("EmailSettings"));
+builder.Services.AddDistributedMemoryCache();
 
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(30);
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
+});
 // Register Repositories and Services
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IEmailService, EmailService>();
+builder.Services.AddScoped<ICaseStudyRepository, CaseStudyRepository>();
+
+builder.Services.AddScoped<ICaseStudyService, CaseStudyService>();
 
 // --- SWAGGER SERVICES ---
 builder.Services.AddEndpointsApiExplorer();
@@ -53,7 +63,7 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapStaticAssets();
-
+app.UseSession();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Users}/{action=Index}/{id?}")

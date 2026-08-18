@@ -1,0 +1,100 @@
+﻿@model IEnumerable<DL_SmartAppraisal.Entities.CaseStudy>
+
+@{
+    ViewData["Title"] = "View Case Study";
+}
+
+<style>
+    .case-study-list {
+        width: 750px;
+        margin: 40px auto;
+    }
+
+    .page-title {
+        font-size: 22px;
+        font-weight: bold;
+        text-decoration: underline;
+        margin-bottom: 20px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    th,
+    td {
+        border: 1px solid #333;
+        padding: 10px;
+        text-align: center;
+    }
+
+    th {
+        font-weight: bold;
+        background: #f3f3f3;
+    }
+
+    .review-link {
+        color: blue;
+        text-decoration: underline;
+    }
+</style>
+
+<div class="case-study-list">
+
+    <div class="page-title">
+        View Case-study
+    </div>
+
+    <table>
+
+        <thead>
+            <tr>
+                <th>CSID</th>
+                <th>Status</th>
+                <th>Review</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            @if (Model != null && Model.Any())
+            {
+                foreach (var item in Model)
+                {
+                    <tr>
+
+                        <td>
+                            @item.CaseStudyId
+                        </td>
+
+                        <td>
+                            @item.Status
+                        </td>
+
+                        <td>
+                            <a asp-controller="CaseStudy"
+                               asp-action="Review"
+                               asp-route-id="@item.CaseStudyId"
+                               class="review-link">
+                                Review
+                            </a>
+                        </td>
+
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="3">
+                        No case studies found.
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+
+    </table>
+
+</div>

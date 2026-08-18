@@ -6,7 +6,7 @@ namespace SmartAppraisal.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class UsersController : ControllerBase
+    public class UsersController : Controller
     {
         private readonly IUserService _userService;
         private readonly IEmailService _emailService;
@@ -124,6 +124,17 @@ namespace SmartAppraisal.Controllers
                 );
             }
 
+
+            // ==========================================
+            // STORE LOGGED-IN USER ID IN SESSION
+            // ==========================================
+
+            HttpContext.Session.SetString(
+                "UserId",
+                user.UserId
+            );
+
+            HttpContext.Session.SetInt32("UserDbId", user.Id);
 
             try
             {
