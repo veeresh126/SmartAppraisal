@@ -14,6 +14,7 @@ namespace DL_SmartAppraisal.Interfaces
         Task<UserDetail?> GetByIdAsync(int id);
 
         Task<UserDetail> CreateAsync(UserDetail user);
+        Task<UserDetail?> GetByEmailAsync(string email);
 
         Task<bool> UpdateAsync(UserDetail user);
 

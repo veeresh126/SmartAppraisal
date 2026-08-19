@@ -1,9 +1,4 @@
 ﻿using DL_SmartAppraisal.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BL_SmartAppraisal.Interfaces
 {
@@ -20,7 +15,14 @@ namespace BL_SmartAppraisal.Interfaces
         Task<bool> DeleteAsync(int id);
 
         Task<UserDetail?> LoginAsync(
-        string userId,
-        string password);
+            string userId,
+            string password);
+
+        Task<UserDetail?> GetByEmailAsync(
+            string email);
+
+        Task<UserDetail?> AuthenticateAsync(
+            string email,
+            string password);
     }
 }

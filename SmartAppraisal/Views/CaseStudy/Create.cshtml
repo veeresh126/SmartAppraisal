@@ -6,109 +6,216 @@
 
 <div class="container mt-4">
 
-    <h2>Create Case Study</h2>
+    <div class="solution-section">
 
-    <form method="post" action="/CaseStudy/Create">
+        <h4>Create Case Study</h4>
 
-        <!-- Designation -->
-        <div class="mb-3">
-            <label for="Designation" class="form-label">
-                Designation
-            </label>
-
-            <select id="Designation"
-                    name="Designation"
-                    class="form-control">
-
+        <div class="form-group mb-3">
+            <label for="DesignationId" class="form-label">Designation</label>
+            <select id="DesignationId"
+                    name="DesignationId"
+                    class="form-control"
+                    asp-items="ViewBag.Designations"
+                    required>
                 <option value="">-- Select Designation --</option>
-
-                <option value="Software Engineer">
-                    Software Engineer
-                </option>
-
-                <option value="Senior Software Engineer">
-                    Senior Software Engineer
-                </option>
-
-                <option value="Technical Lead">
-                    Technical Lead
-                </option>
-
-                <option value="Manager">
-                    Manager
-                </option>
-
+                <option value="Software Engineer">Software Engineer</option>
+                <option value="Team Lead">Team Lead</option>
+                <option value="Project Manager">Project Manager</option>
+                <option value="QA Engineer">QA Engineer</option>
+                <option value="Senior Developer">Senior Developer</option>
             </select>
         </div>
 
+        <form asp-controller="CaseStudy"
+              asp-action="Create"
+              method="post">
 
-        <!-- Case Study -->
-        <div class="mb-3">
-
-            <label for="CaseStudyText" class="form-label">
-                Case Study
-            </label>
-
-            <textarea id="CaseStudyText"
-                      name="CaseStudyText"
-                      class="form-control"
-                      rows="5"
-                      placeholder="Enter case study"></textarea>
-
-        </div>
+            @Html.AntiForgeryToken()
 
 
-        <!-- Solutions -->
-        <h4>Solutions</h4>
+            <!-- =========================
+                 CASE STUDY
+                 ========================= -->
 
-        <div class="mb-3">
-            <label for="Solution1">Soln1</label>
+            <div class="form-row">
 
-            <input type="text"
-                   id="Solution1"
-                   name="Solutions[0].SolutionText"
-                   class="form-control"
-                   placeholder="Enter solution 1" />
-        </div>
+                <label for="CaseStudyText">
+                    Case Study
+                </label>
 
+                <input type="text"
+                       id="CaseStudyText"
+                       name="CaseStudyText"
+                       class="form-control"
+                       placeholder="Enter case study"
+                       value="@Model?.CaseStudyText"
+                       required />
 
-        <div class="mb-3">
-            <label for="Solution2">Soln2</label>
-
-            <input type="text"
-                   id="Solution2"
-                   name="Solutions[1].SolutionText"
-                   class="form-control"
-                   placeholder="Enter solution 2" />
-        </div>
+            </div>
 
 
-        <div class="mb-3">
-            <label for="Solution3">Soln3</label>
+            <!-- =========================
+                 SOLUTION 1
+                 ========================= -->
 
-            <input type="text"
-                   id="Solution3"
-                   name="Solutions[2].SolutionText"
-                   class="form-control"
-                   placeholder="Enter solution 3" />
-        </div>
+            <div class="form-row">
 
+                <label for="Solution1">
+                    Soln1
+                </label>
 
-        <div class="mb-3">
-            <label for="Solution4">Soln4</label>
-
-            <input type="text"
-                   id="Solution4"
-                   name="Solutions[3].SolutionText"
-                   class="form-control"
-                   placeholder="Enter solution 4" />
-        </div>
+                <input type="text"
+                       id="Solution1"
+                       name="Solution1"
+                       class="form-control"
+                       placeholder="Enter Solution 1"
+                       required />
 
 
-        <button type="submit" class="btn btn-success">
-            SUBMIT
-        </button>
+                <label for="Competency1">
+                    Comp
+                </label>
 
-    </form>
+                <input type="text"
+                       id="Competency1"
+                       name="Competency1"
+                       class="form-control competency-input"
+                       placeholder="Enter Competency 1"
+                       required />
+
+            </div>
+
+
+            <!-- =========================
+                 SOLUTION 2
+                 ========================= -->
+
+            <div class="form-row">
+
+                <label for="Solution2">
+                    Soln2
+                </label>
+
+                <input type="text"
+                       id="Solution2"
+                       name="Solution2"
+                       class="form-control"
+                       placeholder="Enter Solution 2"
+                       required />
+
+
+                <label for="Competency2">
+                    Comp
+                </label>
+
+                <input type="text"
+                       id="Competency2"
+                       name="Competency2"
+                       class="form-control competency-input"
+                       placeholder="Enter Competency 2"
+                       required />
+
+            </div>
+
+
+            <!-- =========================
+                 SOLUTION 3
+                 ========================= -->
+
+            <div class="form-row">
+
+                <label for="Solution3">
+                    Soln3
+                </label>
+
+                <input type="text"
+                       id="Solution3"
+                       name="Solution3"
+                       class="form-control"
+                       placeholder="Enter Solution 3"
+                       required />
+
+
+                <label for="Competency3">
+                    Comp
+                </label>
+
+                <input type="text"
+                       id="Competency3"
+                       name="Competency3"
+                       class="form-control competency-input"
+                       placeholder="Enter Competency 3"
+                       required />
+
+            </div>
+
+
+            <!-- =========================
+                 SOLUTION 4
+                 ========================= -->
+
+            <div class="form-row">
+
+                <label for="Solution4">
+                    Soln4
+                </label>
+
+                <input type="text"
+                       id="Solution4"
+                       name="Solution4"
+                       class="form-control"
+                       placeholder="Enter Solution 4"
+                       required />
+
+
+                <label for="Competency4">
+                    Comp
+                </label>
+
+                <input type="text"
+                       id="Competency4"
+                       name="Competency4"
+                       class="form-control competency-input"
+                       placeholder="Enter Competency 4"
+                       required />
+
+            </div>
+
+
+            <!-- =========================
+                 VALIDATION MESSAGE
+                 ========================= -->
+
+            <div asp-validation-summary="All"
+                 class="text-danger mt-3">
+            </div>
+
+
+            <!-- =========================
+                 SUBMIT
+                 ========================= -->
+
+            <div class="submit-section mt-3">
+
+                <button type="submit"
+                        class="btn btn-success">
+
+                    SUBMIT
+
+                </button>
+
+
+            </div>
+
+        </form>
+
+    </div>
 
 </div>
+
+
+@section Scripts {
+
+    <partial name="_ValidationScriptsPartial" />
+
+}

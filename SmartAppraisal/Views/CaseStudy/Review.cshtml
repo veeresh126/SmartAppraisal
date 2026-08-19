@@ -6,42 +6,69 @@
 
 <style>
     .review-container {
-        width: 700px;
+        width: 600px;
         margin: 30px auto;
-        border: 2px solid #222;
-        padding: 25px;
+        border: 2px solid #000;
+        padding: 20px;
+        background-color: #fff;
+        font-family: Arial, sans-serif;
     }
 
-    .section-title {
-        font-weight: bold;
-        text-decoration: underline;
-        margin-bottom: 10px;
-    }
-
-    .case-study-box {
-        border: 2px solid #333;
-        padding: 15px;
-        min-height: 100px;
+    .header-row {
+        display: flex;
+        align-items: flex-start;
         margin-bottom: 20px;
     }
 
-    .solution-table {
-        width: 100%;
-        border-collapse: collapse;
-        margin-bottom: 25px;
+    .header-label {
+        font-weight: bold;
+        width: 120px;
+        color: #002060;
+        text-decoration: underline;
     }
 
-        .solution-table th,
-        .solution-table td {
-            border: 1px solid #333;
-            padding: 10px;
-        }
+    .header-content {
+        flex: 1;
+        border: 1px solid #999;
+        min-height: 50px;
+        padding: 8px;
+        word-break: break-word;
+    }
+
+    .solutions-grid {
+        display: grid;
+        grid-template-columns: 80px 1fr 1fr;
+        row-gap: 8px;
+        column-gap: 15px;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .comp-header {
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    .comment-section {
+        margin-top: 15px;
+    }
+
+    .comment-label {
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+
+    .asterisk {
+        color: red;
+        margin-right: 3px;
+    }
 
     .comment-box {
         width: 100%;
-        height: 100px;
-        border: 2px solid #777;
-        padding: 10px;
+        height: 70px;
+        border: 1px solid #000;
+        padding: 8px;
+        box-sizing: border-box;
     }
 
     .submit-container {
@@ -50,82 +77,61 @@
     }
 
     .submit-button {
-        padding: 8px 30px;
-        border: 2px solid #222;
-        background: white;
+        padding: 6px 35px;
+        border: 2px solid #000;
+        border-radius: 12px;
+        background: #fff;
         font-weight: bold;
         cursor: pointer;
     }
 </style>
 
 <div class="review-container">
+    <form asp-controller="CaseStudy" asp-action="Review" method="post">
+        @Html.AntiForgeryToken()
+        <input type="hidden" name="CaseStudyId" value="@Model.CaseStudyId" />
 
-    <div class="section-title">
-        Case study
-    </div>
+        <!-- CASE STUDY SECTION -->
+        <div class="header-row">
+            <div class="header-label">Case study</div>
+            <div class="header-content">
+                @Model.CaseStudyText
+            </div>
+        </div>
 
-    <div class="case-study-box">
-        @Model.CaseStudyText
-    </div>
+        <!-- SOLUTIONS & COMPETENCIES SECTION -->
+        <div class="solutions-grid">
+            <div></div>
+            <div class="comp-header">Comp</div>
+            <div></div>
 
-    <table class="solution-table">
-
-        <thead>
-            <tr>
-                <th>Solution</th>
-                <th>Competency</th>
-            </tr>
-        </thead>
-
-        <tbody>
-
-            @foreach (var solution in Model.Solutions.OrderBy(x => x.SolutionNumber))
+            @if (Model.Solutions != null && Model.Solutions.Any())
             {
-                <tr>
-
-                    <td>
-                        Soln@(solution.SolutionNumber)
-                        <br />
-                        @solution.SolutionText
-                    </td>
-
-                    <td>
-                        @if (solution.Competencies.Any())
+                @foreach (var solution in Model.Solutions.OrderBy(x => x.SolutionNumber))
+                {
+                    <div>Soln@(solution.SolutionNumber)</div>
+                    <div>
+                        @if (solution.Competencies != null && solution.Competencies.Any())
                         {
-                            foreach (var competency in solution.Competencies)
-                            {
-                                <div>
-                                    @competency.CompetencyName
-                                </div>
-                            }
+                            @string.Join(", ", solution.Competencies.Select(c => c.CompetencyName))
                         }
-                        else
-                        {
-                            <span>No competency</span>
-                        }
-                    </td>
-
-                </tr>
+                    </div>
+                    <div>@solution.SolutionText</div>
+                }
             }
+        </div>
 
-        </tbody>
+        <!-- REVIEW COMMENT SECTION -->
+        <div class="comment-section">
+            <div class="comment-label">
+                <span class="asterisk">*</span>Review comment
+            </div>
+            <textarea name="ReviewComment" class="comment-box" required>@Model.ReviewComment</textarea>
+        </div>
 
-    </table>
-
-    <div class="section-title">
-        Review comment
-    </div>
-
-    <textarea class="comment-box"
-              placeholder="Enter review comment"></textarea>
-
-    <div class="submit-container">
-
-        <button type="button"
-                class="submit-button">
-            Submit
-        </button>
-
-    </div>
-
+        <!-- SUBMIT BUTTON -->
+        <div class="submit-container">
+            <button type="submit" class="submit-button">Submit</button>
+        </div>
+    </form>
 </div>

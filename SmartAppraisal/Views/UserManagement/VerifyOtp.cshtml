@@ -1,0 +1,329 @@
+﻿@{
+    ViewData["Title"] = "Verify OTP";
+}
+
+<div class="container mt-5">
+
+    <div class="card mx-auto"
+         style="max-width:450px;">
+
+        <div class="card-body">
+
+            <h3 class="text-center mb-3">
+                Verify OTP
+            </h3>
+
+            <p class="text-muted text-center">
+                Enter the 6-digit OTP sent to your registered email.
+            </p>
+
+            <div class="mb-3">
+
+                <label for="otp"
+                       class="form-label">
+                    OTP
+                </label>
+
+                <input type="text"
+                       id="otp"
+                       maxlength="6"
+                       inputmode="numeric"
+                       autocomplete="one-time-code"
+                       class="form-control"
+                       placeholder="Enter 6 digit OTP" />
+
+            </div>
+
+
+            <button type="button"
+                    id="verifyOtp"
+                    class="btn btn-primary w-100">
+
+                Verify OTP
+
+            </button>
+
+
+            <button type="button"
+                    id="resendOtp"
+                    class="btn btn-secondary w-100 mt-2">
+
+                Resend OTP
+
+            </button>
+
+
+            <div id="message"
+                 class="mt-3 text-center">
+            </div>
+
+
+            <div class="text-center mt-3">
+
+                <a href="/UserManagement/ForgotPassword">
+                    Change Email
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<script>
+
+    // =========================================================
+    // GET EMAIL FROM SESSION STORAGE
+    // =========================================================
+
+    const email =
+        sessionStorage.getItem("resetEmail");
+
+
+    // If email is missing, go back to Forgot Password
+    if (!email) {
+
+        window.location.href =
+            "/UserManagement/ForgotPassword";
+    }
+
+
+    // =========================================================
+    // VERIFY OTP
+    // =========================================================
+
+    document
+        .getElementById("verifyOtp")
+        .addEventListener(
+            "click",
+            async function() {
+
+                const otp =
+                    document
+                        .getElementById("otp")
+                        .value
+                        .trim();
+
+                const message =
+                    document
+                        .getElementById("message");
+
+                const button =
+                    document
+                        .getElementById("verifyOtp");
+
+
+                message.innerText = "";
+
+
+                // Validate OTP
+                if (!otp) {
+
+                    message.style.color =
+                        "red";
+
+                    message.innerText =
+                        "Please enter the OTP.";
+
+                    return;
+                }
+
+
+                if (!/^\d{6}$/.test(otp)) {
+
+                    message.style.color =
+                        "red";
+
+                    message.innerText =
+                        "OTP must contain exactly 6 digits.";
+
+                    return;
+                }
+
+
+                button.disabled = true;
+
+                button.innerText =
+                    "Verifying...";
+
+
+                try {
+
+                    const response =
+                        await fetch(
+                            "/api/Users/verify-otp",
+                            {
+                                method: "POST",
+
+                                headers: {
+                                    "Content-Type":
+                                        "application/json"
+                                },
+
+                                body: JSON.stringify({
+                                    email: email,
+                                    otp: otp
+                                })
+                            });
+
+
+                    const result =
+                        await response.text();
+
+
+                    if (!response.ok) {
+
+                        message.style.color =
+                            "red";
+
+                        message.innerText =
+                            result ||
+                            "Invalid OTP.";
+
+                        button.disabled = false;
+
+                        button.innerText =
+                            "Verify OTP";
+
+                        return;
+                    }
+
+
+                    // OTP verified
+                    message.style.color =
+                        "green";
+
+                    message.innerText =
+                        "OTP verified successfully.";
+
+
+                    // Go to Reset Password
+                    setTimeout(function() {
+
+                        window.location.href =
+                            "/UserManagement/ResetPassword";
+
+                    }, 500);
+
+                }
+                catch (error) {
+
+                    console.error(error);
+
+                    message.style.color =
+                        "red";
+
+                    message.innerText =
+                        "Unable to connect to the server.";
+
+                    button.disabled = false;
+
+                    button.innerText =
+                        "Verify OTP";
+                }
+
+            });
+
+
+    // =========================================================
+    // RESEND OTP
+    // =========================================================
+
+    document
+        .getElementById("resendOtp")
+        .addEventListener(
+            "click",
+            async function() {
+
+                const message =
+                    document
+                        .getElementById("message");
+
+                const button =
+                    document
+                        .getElementById("resendOtp");
+
+
+                button.disabled = true;
+
+                button.innerText =
+                    "Sending...";
+
+
+                try {
+
+                    const response =
+                        await fetch(
+                            "/api/Users/resend-otp",
+                            {
+                                method: "POST",
+
+                                headers: {
+                                    "Content-Type":
+                                        "application/json"
+                                },
+
+                                body: JSON.stringify({
+                                    email: email
+                                })
+                            });
+
+
+                    const result =
+                        await response.text();
+
+
+                    if (!response.ok) {
+
+                        message.style.color =
+                            "red";
+
+                        message.innerText =
+                            result ||
+                            "Unable to resend OTP.";
+
+                        button.disabled = false;
+
+                        button.innerText =
+                            "Resend OTP";
+
+                        return;
+                    }
+
+
+                    message.style.color =
+                        "green";
+
+                    message.innerText =
+                        result ||
+                        "New OTP has been sent.";
+
+
+                    button.disabled = false;
+
+                    button.innerText =
+                        "Resend OTP";
+
+                }
+                catch (error) {
+
+                    console.error(error);
+
+                    message.style.color =
+                        "red";
+
+                    message.innerText =
+                        "Unable to connect to the server.";
+
+                    button.disabled = false;
+
+                    button.innerText =
+                        "Resend OTP";
+                }
+
+            });
+
+</script>

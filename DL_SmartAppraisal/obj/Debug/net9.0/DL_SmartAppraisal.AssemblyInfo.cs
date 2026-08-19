@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DL_SmartAppraisal")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef68b2a2d36f5de8502b0b713563ba275b8d884c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5ed662cfff2ffe43e62aa269a6fca79275ae53c")]
 [assembly: System.Reflection.AssemblyProductAttribute("DL_SmartAppraisal")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DL_SmartAppraisal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

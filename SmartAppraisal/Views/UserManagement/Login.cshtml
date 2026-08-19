@@ -3,7 +3,6 @@
 }
 
 <style>
-
     .login-container {
         min-height: 75vh;
         display: flex;
@@ -20,10 +19,10 @@
         box-shadow: 0 4px 15px rgba(0,0,0,0.12);
     }
 
-        .login-card h2 {
-            text-align: center;
-            margin-bottom: 25px;
-        }
+    .login-card h2 {
+        text-align: center;
+        margin-bottom: 25px;
+    }
 
     .form-group {
         margin-bottom: 18px;
@@ -54,14 +53,75 @@
         font-size: 16px;
     }
 
-        .login-button:hover {
-            background: #0056b3;
-        }
+    .login-button:hover {
+        background: #0056b3;
+    }
 
-        .login-button:disabled {
-            background: #6c757d;
-            cursor: not-allowed;
-        }
+    .login-button:disabled {
+        background: #6c757d;
+        cursor: not-allowed;
+    }
+
+    .forgot-password {
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .forgot-password a {
+        color: #007bff;
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+    .forgot-password a:hover {
+        text-decoration: underline;
+    }
+
+    .third-party-container {
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .third-party-button {
+        width: 100%;
+        padding: 11px;
+        border: 1px solid #007bff;
+        background: white;
+        color: #007bff;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    .third-party-button:hover {
+        background: #007bff;
+        color: white;
+    }
+
+    .third-party-button:disabled {
+        background: #f1f1f1;
+        color: #777;
+        cursor: not-allowed;
+    }
+
+    .divider {
+        display: flex;
+        align-items: center;
+        margin: 20px 0;
+        color: #777;
+    }
+
+    .divider::before,
+    .divider::after {
+        content: "";
+        flex: 1;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .divider span {
+        padding: 0 10px;
+        font-size: 14px;
+    }
 
     #message {
         margin-top: 15px;
@@ -82,7 +142,6 @@
         background: #d4edda;
         border: 1px solid #c3e6cb;
     }
-
 </style>
 
 <div class="login-container">
@@ -93,6 +152,7 @@
 
         <form id="loginForm">
 
+            <!-- User ID -->
             <div class="form-group">
 
                 <label for="userId">
@@ -107,6 +167,7 @@
 
             </div>
 
+            <!-- Password -->
             <div class="form-group">
 
                 <label for="password">
@@ -121,24 +182,63 @@
 
             </div>
 
+            <!-- Login -->
             <button type="submit"
                     id="loginButton"
                     class="login-button">
+
                 Login
+
             </button>
 
-            <div id="message"></div>
-
         </form>
+
+
+        <!-- Forgot Password -->
+        <div class="forgot-password">
+
+            <a href="@Url.Action("ForgotPassword", "UserManagement")">
+                Forgot Password?
+            </a>
+
+        </div>
+
+
+        <!-- Divider -->
+        <div class="divider">
+            <span>OR</span>
+        </div>
+
+
+        <!-- Third Party Authentication -->
+        <div class="third-party-container">
+
+            <button type="button"
+                    id="thirdPartyButton"
+                    class="third-party-button">
+
+                Authenticate using 3rd Party API
+
+            </button>
+
+        </div>
+
+
+        <!-- Message -->
+        <div id="message"></div>
 
     </div>
 
 </div>
 
+
 <script>
 
+    /*
+     * NORMAL LOGIN
+     */
     document.getElementById("loginForm")
-        .addEventListener("submit", async function(event) {
+        .addEventListener("submit", async function (event) {
 
             event.preventDefault();
 
@@ -156,18 +256,13 @@
 
 
             // Clear previous message
-
             messageElement.innerText = "";
-
             messageElement.style.display = "none";
-
             messageElement.className = "";
 
 
-            // Disable button while logging in
-
+            // Disable button
             loginButton.disabled = true;
-
             loginButton.innerText = "Logging in...";
 
 
@@ -206,7 +301,7 @@
 
                     }
                     catch {
-                        // Keep default error message
+                        // Keep default message
                     }
 
                     throw new Error(errorMessage);
@@ -214,7 +309,6 @@
 
 
                 // Login successful
-
                 messageElement.innerText =
                     "Login successful!";
 
@@ -225,15 +319,13 @@
                     "block";
 
 
-                // Redirect to User Management
-
-                setTimeout(function() {
+                // Redirect
+                setTimeout(function () {
 
                     window.location.href =
                         '/CaseStudy/Create';
 
                 }, 500);
-
 
             }
             catch (error) {
@@ -250,10 +342,128 @@
 
 
                 // Enable button again
-
                 loginButton.disabled = false;
 
-                loginButton.innerText = "Login";
+                loginButton.innerText =
+                    "Login";
+            }
+
+        });
+
+
+
+    /*
+     * THIRD PARTY AUTHENTICATION
+     */
+    document.getElementById("thirdPartyButton")
+        .addEventListener("click", async function () {
+
+            const button =
+                document.getElementById("thirdPartyButton");
+
+            const messageElement =
+                document.getElementById("message");
+
+
+            // Clear previous message
+            messageElement.innerText = "";
+            messageElement.style.display = "none";
+            messageElement.className = "";
+
+
+            button.disabled = true;
+            button.innerText =
+                "Authenticating...";
+
+
+            try {
+
+                /*
+                 * IMPORTANT:
+                 *
+                 * Change this URL according to
+                 * your actual 3rd-party API.
+                 */
+                const response = await fetch(
+                    '/api/users/third-party-authenticate',
+                    {
+                        method: 'POST',
+
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+
+                        body: JSON.stringify({
+                            userId:
+                                document
+                                .getElementById("userId")
+                                .value
+                                .trim()
+                        })
+                    }
+                );
+
+
+                if (!response.ok) {
+
+                    let errorMessage =
+                        "3rd party authentication failed.";
+
+                    try {
+
+                        const text =
+                            await response.text();
+
+                        if (text) {
+                            errorMessage = text;
+                        }
+
+                    }
+                    catch {
+                        // Keep default error
+                    }
+
+                    throw new Error(errorMessage);
+                }
+
+
+                messageElement.innerText =
+                    "3rd party authentication successful!";
+
+                messageElement.className =
+                    "success-message";
+
+                messageElement.style.display =
+                    "block";
+
+
+                setTimeout(function () {
+
+                    window.location.href =
+                        '/CaseStudy/Create';
+
+                }, 500);
+
+            }
+            catch (error) {
+
+                messageElement.innerText =
+                    error.message ||
+                    "3rd party authentication failed.";
+
+                messageElement.className =
+                    "error-message";
+
+                messageElement.style.display =
+                    "block";
+
+            }
+            finally {
+
+                button.disabled = false;
+
+                button.innerText =
+                    "Authenticate using 3rd Party API";
 
             }
 

@@ -6,10 +6,17 @@ namespace BL_SmartAppraisal.Interfaces
     {
         Task<List<CaseStudy>> GetAllAsync();
 
-        Task<List<CaseStudy>> GetByUserIdAsync(int userId);
-
         Task<CaseStudy?> GetByIdAsync(int id);
 
-        Task<CaseStudy> CreateAsync(CaseStudy caseStudy);
+        Task<List<CaseStudy>> GetByUserIdAsync(int userId);
+
+        Task<CaseStudy> CreateAsync(
+            CaseStudy caseStudy);
+
+        Task<bool> ReviewAsync(
+            int caseStudyId,
+            int reviewerId,
+            bool approved,
+            string? reviewComment);
     }
 }

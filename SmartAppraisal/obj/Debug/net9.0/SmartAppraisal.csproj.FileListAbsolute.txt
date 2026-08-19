@@ -374,7 +374,6 @@ C:\Users\HP\source\repos\SmartAppraisal\SmartAppraisal\obj\Debug\net9.0\SmartApp
 C:\Users\HP\source\repos\SmartAppraisal\SmartAppraisal\obj\Debug\net9.0\SmartAppraisal.AssemblyInfoInputs.cache
 C:\Users\HP\source\repos\SmartAppraisal\SmartAppraisal\obj\Debug\net9.0\SmartAppraisal.AssemblyInfo.cs
 C:\Users\HP\source\repos\SmartAppraisal\SmartAppraisal\obj\Debug\net9.0\SmartAppraisal.csproj.CoreCompileInputs.cache
-C:\Users\HP\source\repos\SmartAppraisal\SmartAppraisal\obj\Debug\net9.0\SmartAppraisal.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\HP\source\repos\SmartAppraisal\SmartAppraisal\obj\Debug\net9.0\SmartAppraisal.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\HP\source\repos\SmartAppraisal\SmartAppraisal\obj\Debug\net9.0\SmartAppraisal.RazorAssemblyInfo.cache
 C:\Users\HP\source\repos\SmartAppraisal\SmartAppraisal\obj\Debug\net9.0\SmartAppraisal.RazorAssemblyInfo.cs
@@ -461,3 +460,6 @@ C:\Users\HP\source\repos\SmartAppraisal\SmartAppraisal\obj\Debug\net9.0\refint\S
 C:\Users\HP\source\repos\SmartAppraisal\SmartAppraisal\obj\Debug\net9.0\SmartAppraisal.pdb
 C:\Users\HP\source\repos\SmartAppraisal\SmartAppraisal\obj\Debug\net9.0\SmartAppraisal.genruntimeconfig.cache
 C:\Users\HP\source\repos\SmartAppraisal\SmartAppraisal\obj\Debug\net9.0\ref\SmartAppraisal.dll
+C:\Users\HP\source\repos\SmartAppraisal\SmartAppraisal\bin\Debug\net9.0\BouncyCastle.Cryptography.dll
+C:\Users\HP\source\repos\SmartAppraisal\SmartAppraisal\bin\Debug\net9.0\MailKit.dll
+C:\Users\HP\source\repos\SmartAppraisal\SmartAppraisal\bin\Debug\net9.0\MimeKit.dll

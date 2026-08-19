@@ -22,6 +22,97 @@ namespace DL_SmartAppraisal.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("DL_SmartAppraisal.Entities.CaseStudy", b =>
+                {
+                    b.Property<int>("CaseStudyId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CaseStudyId"));
+
+                    b.Property<string>("CaseStudyText")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("CreatedBy")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Designation")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("ModifiedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("ReviewComment")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("ReviewedBy")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("ReviewedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("Status")
+                        .HasColumnType("int");
+
+                    b.HasKey("CaseStudyId");
+
+                    b.HasIndex("CreatedBy");
+
+                    b.ToTable("CaseStudies");
+                });
+
+            modelBuilder.Entity("DL_SmartAppraisal.Entities.CaseStudyCompetency", b =>
+                {
+                    b.Property<int>("CaseStudyCompetencyId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CaseStudyCompetencyId"));
+
+                    b.Property<int>("CaseStudySolutionId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("CompetencyName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("CaseStudyCompetencyId");
+
+                    b.HasIndex("CaseStudySolutionId");
+
+                    b.ToTable("CaseStudyCompetencies");
+                });
+
+            modelBuilder.Entity("DL_SmartAppraisal.Entities.CaseStudySolution", b =>
+                {
+                    b.Property<int>("CaseStudySolutionId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CaseStudySolutionId"));
+
+                    b.Property<int>("CaseStudyId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("SolutionNumber")
+                        .HasColumnType("int");
+
+                    b.Property<string>("SolutionText")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("CaseStudySolutionId");
+
+                    b.HasIndex("CaseStudyId");
+
+                    b.ToTable("CaseStudySolutions");
+                });
+
             modelBuilder.Entity("DL_SmartAppraisal.Entities.Role", b =>
                 {
                     b.Property<int>("RoleId")
@@ -57,6 +148,10 @@ namespace DL_SmartAppraisal.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<bool>("IsActive")
                         .HasColumnType("bit");
 
@@ -75,6 +170,12 @@ namespace DL_SmartAppraisal.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("PasswordResetToken")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("PasswordResetTokenExpiry")
+                        .HasColumnType("datetime2");
+
                     b.Property<int>("RoleId")
                         .HasColumnType("int");
 
@@ -85,6 +186,49 @@ namespace DL_SmartAppraisal.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("UserDetails");
+                });
+
+            modelBuilder.Entity("DL_SmartAppraisal.Entities.CaseStudy", b =>
+                {
+                    b.HasOne("DL_SmartAppraisal.Entities.UserDetail", "CreatedByUser")
+                        .WithMany()
+                        .HasForeignKey("CreatedBy")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("CreatedByUser");
+                });
+
+            modelBuilder.Entity("DL_SmartAppraisal.Entities.CaseStudyCompetency", b =>
+                {
+                    b.HasOne("DL_SmartAppraisal.Entities.CaseStudySolution", "CaseStudySolution")
+                        .WithMany("Competencies")
+                        .HasForeignKey("CaseStudySolutionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("CaseStudySolution");
+                });
+
+            modelBuilder.Entity("DL_SmartAppraisal.Entities.CaseStudySolution", b =>
+                {
+                    b.HasOne("DL_SmartAppraisal.Entities.CaseStudy", "CaseStudy")
+                        .WithMany("Solutions")
+                        .HasForeignKey("CaseStudyId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("CaseStudy");
+                });
+
+            modelBuilder.Entity("DL_SmartAppraisal.Entities.CaseStudy", b =>
+                {
+                    b.Navigation("Solutions");
+                });
+
+            modelBuilder.Entity("DL_SmartAppraisal.Entities.CaseStudySolution", b =>
+                {
+                    b.Navigation("Competencies");
                 });
 #pragma warning restore 612, 618
         }

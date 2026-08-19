@@ -79,8 +79,13 @@ namespace DL_SmartAppraisal.Repositories
             return user;
         }
 
+        public async Task<UserDetail?> GetByEmailAsync(string email)
+        {
+            return await _context.UserDetails
+                .FirstOrDefaultAsync(x =>
+                    x.Email.ToLower() == email.ToLower());
+        }
 
-     
     }
 
 }

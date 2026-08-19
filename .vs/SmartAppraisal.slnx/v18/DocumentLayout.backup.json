@@ -1,86 +1,249 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\veereshp\\source\\repos\\SmartAppraisal\\",
+  "WorkspaceRootPath": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|c:\\users\\veereshp\\source\\repos\\smartappraisal\\smartappraisal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|solutionrelative:smartappraisal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\smartappraisal\\views\\casestudy\\review.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|solutionrelative:smartappraisal\\views\\casestudy\\review.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|c:\\users\\veereshp\\source\\repos\\smartappraisal\\smartappraisal\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|solutionrelative:smartappraisal\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\smartappraisal\\views\\casestudy\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|solutionrelative:smartappraisal\\views\\casestudy\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|c:\\users\\veereshp\\source\\repos\\smartappraisal\\smartappraisal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|solutionrelative:smartappraisal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\smartappraisal\\views\\casestudy\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|solutionrelative:smartappraisal\\views\\casestudy\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|c:\\users\\veereshp\\source\\repos\\smartappraisal\\smartappraisal\\smartappraisal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|solutionrelative:smartappraisal\\smartappraisal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\smartappraisal\\controllers\\casestudycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|solutionrelative:smartappraisal\\controllers\\casestudycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|c:\\users\\veereshp\\source\\repos\\smartappraisal\\smartappraisal\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\dl_smartappraisal\\repositories\\casestudyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|solutionrelative:dl_smartappraisal\\repositories\\casestudyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\dl_smartappraisal\\entities\\casestudy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|solutionrelative:dl_smartappraisal\\entities\\casestudy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{578592B8-9A18-2BEC-0EBE-B23ED47D91C7}|BL_SmartAppraisal\\BL_SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\bl_smartappraisal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{578592B8-9A18-2BEC-0EBE-B23ED47D91C7}|BL_SmartAppraisal\\BL_SmartAppraisal.csproj|solutionrelative:bl_smartappraisal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\dl_smartappraisal\\entities\\casestudycompetency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|solutionrelative:dl_smartappraisal\\entities\\casestudycompetency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\dl_smartappraisal\\entities\\casestudysolution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|solutionrelative:dl_smartappraisal\\entities\\casestudysolution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\smartappraisal\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|solutionrelative:smartappraisal\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\smartappraisal\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|solutionrelative:smartappraisal\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\smartappraisal\\controllers\\usermanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|solutionrelative:smartappraisal\\controllers\\usermanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\smartappraisal\\views\\usermanagement\\verifyotp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|solutionrelative:smartappraisal\\views\\usermanagement\\verifyotp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\smartappraisal\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|solutionrelative:smartappraisal\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|c:\\users\\veereshp\\source\\repos\\smartappraisal\\dl_smartappraisal\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|solutionrelative:dl_smartappraisal\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\smartappraisal\\views\\usermanagement\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|solutionrelative:smartappraisal\\views\\usermanagement\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|c:\\users\\veereshp\\source\\repos\\smartappraisal\\dl_smartappraisal\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|solutionrelative:dl_smartappraisal\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\smartappraisal\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|solutionrelative:smartappraisal\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{578592B8-9A18-2BEC-0EBE-B23ED47D91C7}|BL_SmartAppraisal\\BL_SmartAppraisal.csproj|c:\\users\\veereshp\\source\\repos\\smartappraisal\\bl_smartappraisal\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{578592B8-9A18-2BEC-0EBE-B23ED47D91C7}|BL_SmartAppraisal\\BL_SmartAppraisal.csproj|solutionrelative:bl_smartappraisal\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{578592B8-9A18-2BEC-0EBE-B23ED47D91C7}|BL_SmartAppraisal\\BL_SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\bl_smartappraisal\\services\\casestudyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{578592B8-9A18-2BEC-0EBE-B23ED47D91C7}|BL_SmartAppraisal\\BL_SmartAppraisal.csproj|solutionrelative:bl_smartappraisal\\services\\casestudyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{578592B8-9A18-2BEC-0EBE-B23ED47D91C7}|BL_SmartAppraisal\\BL_SmartAppraisal.csproj|c:\\users\\veereshp\\source\\repos\\smartappraisal\\bl_smartappraisal\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{578592B8-9A18-2BEC-0EBE-B23ED47D91C7}|BL_SmartAppraisal\\BL_SmartAppraisal.csproj|solutionrelative:bl_smartappraisal\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|c:\\users\\veereshp\\source\\repos\\smartappraisal\\dl_smartappraisal\\entities\\userdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\dl_smartappraisal\\entities\\userdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|solutionrelative:dl_smartappraisal\\entities\\userdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|c:\\users\\veereshp\\source\\repos\\smartappraisal\\dl_smartappraisal\\migrations\\20260810165207_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|solutionrelative:dl_smartappraisal\\migrations\\20260810165207_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\dl_smartappraisal\\interfaces\\icasestudyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|solutionrelative:dl_smartappraisal\\interfaces\\icasestudyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\veereshp\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Migrations\\20260810163743_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DL_SmartAppraisal\\Migrations\\20260810163743_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{578592B8-9A18-2BEC-0EBE-B23ED47D91C7}|BL_SmartAppraisal\\BL_SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\bl_smartappraisal\\interfaces\\icasestudyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{578592B8-9A18-2BEC-0EBE-B23ED47D91C7}|BL_SmartAppraisal\\BL_SmartAppraisal.csproj|solutionrelative:bl_smartappraisal\\interfaces\\icasestudyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|c:\\users\\veereshp\\source\\repos\\smartappraisal\\dl_smartappraisal\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|solutionrelative:dl_smartappraisal\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\smartappraisal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|solutionrelative:smartappraisal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|c:\\users\\veereshp\\source\\repos\\smartappraisal\\dl_smartappraisal\\data\\smartappraisaldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{578592B8-9A18-2BEC-0EBE-B23ED47D91C7}|BL_SmartAppraisal\\BL_SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\bl_smartappraisal\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{578592B8-9A18-2BEC-0EBE-B23ED47D91C7}|BL_SmartAppraisal\\BL_SmartAppraisal.csproj|solutionrelative:bl_smartappraisal\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{578592B8-9A18-2BEC-0EBE-B23ED47D91C7}|BL_SmartAppraisal\\BL_SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\bl_smartappraisal\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{578592B8-9A18-2BEC-0EBE-B23ED47D91C7}|BL_SmartAppraisal\\BL_SmartAppraisal.csproj|solutionrelative:bl_smartappraisal\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\dl_smartappraisal\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|solutionrelative:dl_smartappraisal\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\dl_smartappraisal\\data\\smartappraisaldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|solutionrelative:dl_smartappraisal\\data\\smartappraisaldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|c:\\users\\veereshp\\source\\repos\\smartappraisal\\dl_smartappraisal\\dl_smartappraisal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|solutionrelative:dl_smartappraisal\\dl_smartappraisal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{578592B8-9A18-2BEC-0EBE-B23ED47D91C7}|BL_SmartAppraisal\\BL_SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\bl_smartappraisal\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{578592B8-9A18-2BEC-0EBE-B23ED47D91C7}|BL_SmartAppraisal\\BL_SmartAppraisal.csproj|solutionrelative:bl_smartappraisal\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{578592B8-9A18-2BEC-0EBE-B23ED47D91C7}|BL_SmartAppraisal\\BL_SmartAppraisal.csproj|c:\\users\\veereshp\\source\\repos\\smartappraisal\\bl_smartappraisal\\bl_smartappraisal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\smartappraisal\\views\\usermanagement\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|solutionrelative:smartappraisal\\views\\usermanagement\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\dl_smartappraisal\\entities\\casestudystatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|solutionrelative:dl_smartappraisal\\entities\\casestudystatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\smartappraisal\\views\\usermanagement\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|solutionrelative:smartappraisal\\views\\usermanagement\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\smartappraisal\\views\\usermanagement\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|solutionrelative:smartappraisal\\views\\usermanagement\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\dl_smartappraisal\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|solutionrelative:dl_smartappraisal\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\smartappraisal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|solutionrelative:smartappraisal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{578592B8-9A18-2BEC-0EBE-B23ED47D91C7}|BL_SmartAppraisal\\BL_SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\bl_smartappraisal\\settings\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{578592B8-9A18-2BEC-0EBE-B23ED47D91C7}|BL_SmartAppraisal\\BL_SmartAppraisal.csproj|solutionrelative:bl_smartappraisal\\settings\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{578592B8-9A18-2BEC-0EBE-B23ED47D91C7}|BL_SmartAppraisal\\BL_SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\bl_smartappraisal\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{578592B8-9A18-2BEC-0EBE-B23ED47D91C7}|BL_SmartAppraisal\\BL_SmartAppraisal.csproj|solutionrelative:bl_smartappraisal\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\dl_smartappraisal\\entities\\resetpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|solutionrelative:dl_smartappraisal\\entities\\resetpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\dl_smartappraisal\\entities\\verifyotprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|solutionrelative:dl_smartappraisal\\entities\\verifyotprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\dl_smartappraisal\\entities\\forgotpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|solutionrelative:dl_smartappraisal\\entities\\forgotpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{578592B8-9A18-2BEC-0EBE-B23ED47D91C7}|BL_SmartAppraisal\\BL_SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\bl_smartappraisal\\services\\otpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{578592B8-9A18-2BEC-0EBE-B23ED47D91C7}|BL_SmartAppraisal\\BL_SmartAppraisal.csproj|solutionrelative:bl_smartappraisal\\services\\otpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{578592B8-9A18-2BEC-0EBE-B23ED47D91C7}|BL_SmartAppraisal\\BL_SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\bl_smartappraisal\\interfaces\\iotpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{578592B8-9A18-2BEC-0EBE-B23ED47D91C7}|BL_SmartAppraisal\\BL_SmartAppraisal.csproj|solutionrelative:bl_smartappraisal\\interfaces\\iotpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\dl_smartappraisal\\migrations\\20260818140241_addpasswordresetfields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|solutionrelative:dl_smartappraisal\\migrations\\20260818140241_addpasswordresetfields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\smartappraisal\\views\\usermanagement\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|solutionrelative:smartappraisal\\views\\usermanagement\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{578592B8-9A18-2BEC-0EBE-B23ED47D91C7}|BL_SmartAppraisal\\BL_SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\bl_smartappraisal\\bl_smartappraisal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{578592B8-9A18-2BEC-0EBE-B23ED47D91C7}|BL_SmartAppraisal\\BL_SmartAppraisal.csproj|solutionrelative:bl_smartappraisal\\bl_smartappraisal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B369F909-CA38-5B48-19F0-08F817D66689}|UT_SmartAppraisal\\UT_SmartAppraisal.csproj|c:\\users\\veereshp\\source\\repos\\smartappraisal\\ut_smartappraisal\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\dl_smartappraisal\\entities\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|solutionrelative:dl_smartappraisal\\entities\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\smartappraisal\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|solutionrelative:smartappraisal\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\smartappraisal\\views\\usermanagement\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|solutionrelative:smartappraisal\\views\\usermanagement\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\smartappraisal\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|solutionrelative:smartappraisal\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\smartappraisal\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|solutionrelative:smartappraisal\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\dl_smartappraisal\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|solutionrelative:dl_smartappraisal\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\smartappraisal\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|solutionrelative:smartappraisal\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\smartappraisal\\smartappraisal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{21CCF37B-62EF-8137-2E49-30CDAA5C5AD7}|SmartAppraisal\\SmartAppraisal.csproj|solutionrelative:smartappraisal\\smartappraisal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B369F909-CA38-5B48-19F0-08F817D66689}|UT_SmartAppraisal\\UT_SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\ut_smartappraisal\\userservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B369F909-CA38-5B48-19F0-08F817D66689}|UT_SmartAppraisal\\UT_SmartAppraisal.csproj|solutionrelative:ut_smartappraisal\\userservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B369F909-CA38-5B48-19F0-08F817D66689}|UT_SmartAppraisal\\UT_SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\ut_smartappraisal\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B369F909-CA38-5B48-19F0-08F817D66689}|UT_SmartAppraisal\\UT_SmartAppraisal.csproj|solutionrelative:ut_smartappraisal\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\dl_smartappraisal\\dl_smartappraisal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|solutionrelative:dl_smartappraisal\\dl_smartappraisal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\veereshp\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Migrations\\20260810163743_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B369F909-CA38-5B48-19F0-08F817D66689}|UT_SmartAppraisal\\UT_SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\ut_smartappraisal\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B369F909-CA38-5B48-19F0-08F817D66689}|UT_SmartAppraisal\\UT_SmartAppraisal.csproj|solutionrelative:ut_smartappraisal\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1619FC24-2DBF-BEEB-0232-F7D8E2B147F3}|UL_SmartAppraisal\\UL_SmartAppraisal.csproj|c:\\users\\veereshp\\source\\repos\\smartappraisal\\ul_smartappraisal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1619FC24-2DBF-BEEB-0232-F7D8E2B147F3}|UL_SmartAppraisal\\UL_SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\ul_smartappraisal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1619FC24-2DBF-BEEB-0232-F7D8E2B147F3}|UL_SmartAppraisal\\UL_SmartAppraisal.csproj|solutionrelative:ul_smartappraisal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|c:\\users\\veereshp\\source\\repos\\smartappraisal\\dl_smartappraisal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\dl_smartappraisal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|solutionrelative:dl_smartappraisal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{578592B8-9A18-2BEC-0EBE-B23ED47D91C7}|BL_SmartAppraisal\\BL_SmartAppraisal.csproj|c:\\users\\veereshp\\source\\repos\\smartappraisal\\bl_smartappraisal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{578592B8-9A18-2BEC-0EBE-B23ED47D91C7}|BL_SmartAppraisal\\BL_SmartAppraisal.csproj|solutionrelative:bl_smartappraisal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\dl_smartappraisal\\migrations\\20260814154908_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|solutionrelative:dl_smartappraisal\\migrations\\20260814154908_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\dl_smartappraisal\\migrations\\20260817025552_addcasestudytable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|solutionrelative:dl_smartappraisal\\migrations\\20260817025552_addcasestudytable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\dl_smartappraisal\\migrations\\20260815141620_addemailtouserdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|solutionrelative:dl_smartappraisal\\migrations\\20260815141620_addemailtouserdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|c:\\users\\hp\\source\\repos\\smartappraisal\\dl_smartappraisal\\migrations\\20260819022645_addcasestudyreviewandstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FF40F76-4379-A1F6-7CA7-FE08B6CA1400}|DL_SmartAppraisal\\DL_SmartAppraisal.csproj|solutionrelative:dl_smartappraisal\\migrations\\20260819022645_addcasestudyreviewandstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -90,212 +253,743 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\veereshp\\source\\repos\\SmartAppraisal\\SmartAppraisal\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "SmartAppraisal\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\veereshp\\source\\repos\\SmartAppraisal\\SmartAppraisal\\Properties\\launchSettings.json",
-              "RelativeToolTip": "SmartAppraisal\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBEAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-08-11T13:55:29.963Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SmartAppraisal.csproj",
-              "DocumentMoniker": "C:\\Users\\veereshp\\source\\repos\\SmartAppraisal\\SmartAppraisal\\SmartAppraisal.csproj",
-              "RelativeDocumentMoniker": "SmartAppraisal\\SmartAppraisal.csproj",
-              "ToolTip": "C:\\Users\\veereshp\\source\\repos\\SmartAppraisal\\SmartAppraisal\\SmartAppraisal.csproj",
-              "RelativeToolTip": "SmartAppraisal\\SmartAppraisal.csproj",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABgAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-08-11T05:53:10.268Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\veereshp\\source\\repos\\SmartAppraisal\\SmartAppraisal\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "SmartAppraisal\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\veereshp\\source\\repos\\SmartAppraisal\\SmartAppraisal\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "SmartAppraisal\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-11T05:30:47.806Z"
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\veereshp\\source\\repos\\SmartAppraisal\\BL_SmartAppraisal\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "BL_SmartAppraisal\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\veereshp\\source\\repos\\SmartAppraisal\\BL_SmartAppraisal\\Services\\UserService.cs",
-              "RelativeToolTip": "BL_SmartAppraisal\\Services\\UserService.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAowCUAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-11T04:28:56.003Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\veereshp\\source\\repos\\SmartAppraisal\\BL_SmartAppraisal\\Interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "BL_SmartAppraisal\\Interfaces\\IUserService.cs",
-              "ToolTip": "C:\\Users\\veereshp\\source\\repos\\SmartAppraisal\\BL_SmartAppraisal\\Interfaces\\IUserService.cs",
-              "RelativeToolTip": "BL_SmartAppraisal\\Interfaces\\IUserService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAQwBMAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-11T04:27:51.208Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "20260810165207_Initial.cs",
-              "DocumentMoniker": "C:\\Users\\veereshp\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Migrations\\20260810165207_Initial.cs",
-              "RelativeDocumentMoniker": "DL_SmartAppraisal\\Migrations\\20260810165207_Initial.cs",
-              "ToolTip": "C:\\Users\\veereshp\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Migrations\\20260810165207_Initial.cs",
-              "RelativeToolTip": "DL_SmartAppraisal\\Migrations\\20260810165207_Initial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-10T16:52:07.269Z"
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\veereshp\\source\\repos\\SmartAppraisal\\SmartAppraisal\\Program.cs",
-              "RelativeDocumentMoniker": "SmartAppraisal\\Program.cs",
-              "ToolTip": "C:\\Users\\veereshp\\source\\repos\\SmartAppraisal\\SmartAppraisal\\Program.cs",
-              "RelativeToolTip": "SmartAppraisal\\Program.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAowDcAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-10T15:24:13.061Z",
+              "Title": "Review.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\SmartAppraisal\\Views\\CaseStudy\\Review.cshtml",
+              "RelativeDocumentMoniker": "SmartAppraisal\\Views\\CaseStudy\\Review.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\SmartAppraisal\\Views\\CaseStudy\\Review.cshtml",
+              "RelativeToolTip": "SmartAppraisal\\Views\\CaseStudy\\Review.cshtml",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAiwIgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-17T13:16:15.042Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\veereshp\\source\\repos\\SmartAppraisal\\SmartAppraisal\\appsettings.json",
-              "RelativeDocumentMoniker": "SmartAppraisal\\appsettings.json",
-              "ToolTip": "C:\\Users\\veereshp\\source\\repos\\SmartAppraisal\\SmartAppraisal\\appsettings.json",
-              "RelativeToolTip": "SmartAppraisal\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-08-10T15:21:53.597Z",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\SmartAppraisal\\Views\\CaseStudy\\Create.cshtml",
+              "RelativeDocumentMoniker": "SmartAppraisal\\Views\\CaseStudy\\Create.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\SmartAppraisal\\Views\\CaseStudy\\Create.cshtml",
+              "RelativeToolTip": "SmartAppraisal\\Views\\CaseStudy\\Create.cshtml",
+              "ViewState": "AgIAAAoAAAAAz8zMzMwnwBMAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-17T13:11:31.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\SmartAppraisal\\Views\\CaseStudy\\Index.cshtml",
+              "RelativeDocumentMoniker": "SmartAppraisal\\Views\\CaseStudy\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\SmartAppraisal\\Views\\CaseStudy\\Index.cshtml",
+              "RelativeToolTip": "SmartAppraisal\\Views\\CaseStudy\\Index.cshtml",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAiwDIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-17T13:15:31.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CaseStudyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Repositories\\CaseStudyRepository.cs",
+              "RelativeDocumentMoniker": "DL_SmartAppraisal\\Repositories\\CaseStudyRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Repositories\\CaseStudyRepository.cs",
+              "RelativeToolTip": "DL_SmartAppraisal\\Repositories\\CaseStudyRepository.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAkwIIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T02:59:08.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CaseStudyController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\SmartAppraisal\\Controllers\\CaseStudyController.cs",
+              "RelativeDocumentMoniker": "SmartAppraisal\\Controllers\\CaseStudyController.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\SmartAppraisal\\Controllers\\CaseStudyController.cs",
+              "RelativeToolTip": "SmartAppraisal\\Controllers\\CaseStudyController.cs",
+              "ViewState": "AgIAAJgBAAAAAAAAAAAiwJ4BAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T13:18:26.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CaseStudy.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Entities\\CaseStudy.cs",
+              "RelativeDocumentMoniker": "DL_SmartAppraisal\\Entities\\CaseStudy.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Entities\\CaseStudy.cs",
+              "RelativeToolTip": "DL_SmartAppraisal\\Entities\\CaseStudy.cs",
+              "ViewState": "AgIAAAYAAAAgm5mZmZkkwAkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T02:45:59.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CaseStudyCompetency.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Entities\\CaseStudyCompetency.cs",
+              "RelativeDocumentMoniker": "DL_SmartAppraisal\\Entities\\CaseStudyCompetency.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Entities\\CaseStudyCompetency.cs",
+              "RelativeToolTip": "DL_SmartAppraisal\\Entities\\CaseStudyCompetency.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAkwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T02:46:45.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CaseStudySolution.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Entities\\CaseStudySolution.cs",
+              "RelativeDocumentMoniker": "DL_SmartAppraisal\\Entities\\CaseStudySolution.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Entities\\CaseStudySolution.cs",
+              "RelativeToolTip": "DL_SmartAppraisal\\Entities\\CaseStudySolution.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAADwvxgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T02:46:22.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\SmartAppraisal\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "SmartAppraisal\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\SmartAppraisal\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "SmartAppraisal\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-14T14:23:02.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\SmartAppraisal\\Views\\Users\\Create.cshtml",
+              "RelativeDocumentMoniker": "SmartAppraisal\\Views\\Users\\Create.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\SmartAppraisal\\Views\\Users\\Create.cshtml",
+              "RelativeToolTip": "SmartAppraisal\\Views\\Users\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-13T17:47:13.231Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\veereshp\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "DL_SmartAppraisal\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\veereshp\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "DL_SmartAppraisal\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAkwDYAAAAJAAAAAAAAAA==",
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\BL_SmartAppraisal\\Class1.cs",
+              "RelativeDocumentMoniker": "BL_SmartAppraisal\\Class1.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\BL_SmartAppraisal\\Class1.cs",
+              "RelativeToolTip": "BL_SmartAppraisal\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-10T15:07:15.393Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\veereshp\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Interfaces\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "DL_SmartAppraisal\\Interfaces\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\veereshp\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Interfaces\\IUserRepository.cs",
-              "RelativeToolTip": "DL_SmartAppraisal\\Interfaces\\IUserRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAawBEAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-10T15:06:26.079Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Role.cs",
-              "DocumentMoniker": "C:\\Users\\veereshp\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Entities\\Role.cs",
-              "RelativeDocumentMoniker": "DL_SmartAppraisal\\Entities\\Role.cs",
-              "ToolTip": "C:\\Users\\veereshp\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Entities\\Role.cs",
-              "RelativeToolTip": "DL_SmartAppraisal\\Entities\\Role.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-10T15:05:52.47Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UserDetail.cs",
-              "DocumentMoniker": "C:\\Users\\veereshp\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Entities\\UserDetail.cs",
-              "RelativeDocumentMoniker": "DL_SmartAppraisal\\Entities\\UserDetail.cs",
-              "ToolTip": "C:\\Users\\veereshp\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Entities\\UserDetail.cs",
-              "RelativeToolTip": "DL_SmartAppraisal\\Entities\\UserDetail.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAswBoAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-10T15:05:28.946Z"
+              "WhenOpened": "2026-08-10T14:28:33.883Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "20260810163743_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\veereshp\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Migrations\\20260810163743_InitialCreate.cs",
-              "RelativeDocumentMoniker": "DL_SmartAppraisal\\Migrations\\20260810163743_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\veereshp\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Migrations\\20260810163743_InitialCreate.cs",
-              "RelativeToolTip": "DL_SmartAppraisal\\Migrations\\20260810163743_InitialCreate.cs",
+              "Title": "UserManagementController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\SmartAppraisal\\Controllers\\UserManagementController.cs",
+              "RelativeDocumentMoniker": "SmartAppraisal\\Controllers\\UserManagementController.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\SmartAppraisal\\Controllers\\UserManagementController.cs",
+              "RelativeToolTip": "SmartAppraisal\\Controllers\\UserManagementController.cs",
+              "ViewState": "AgIAABkAAACAZmZmZmYmwDUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-10T16:37:43.394Z"
+              "WhenOpened": "2026-08-14T14:59:22.374Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "SmartAppraisalDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\veereshp\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Data\\SmartAppraisalDbContext.cs",
-              "RelativeDocumentMoniker": "DL_SmartAppraisal\\Data\\SmartAppraisalDbContext.cs",
-              "ToolTip": "C:\\Users\\veereshp\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Data\\SmartAppraisalDbContext.cs",
-              "RelativeToolTip": "DL_SmartAppraisal\\Data\\SmartAppraisalDbContext.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAIBJwA4AAAAaAAAAAAAAAA==",
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\SmartAppraisal\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "SmartAppraisal\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\SmartAppraisal\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "SmartAppraisal\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAD8BAADAzMzMzMwewEoBAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-10T15:04:55.897Z"
+              "WhenOpened": "2026-08-11T05:30:47.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "VerifyOtp.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\SmartAppraisal\\Views\\UserManagement\\VerifyOtp.cshtml",
+              "RelativeDocumentMoniker": "SmartAppraisal\\Views\\UserManagement\\VerifyOtp.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\SmartAppraisal\\Views\\UserManagement\\VerifyOtp.cshtml",
+              "RelativeToolTip": "SmartAppraisal\\Views\\UserManagement\\VerifyOtp.cshtml",
+              "ViewState": "AgIAADIBAAAAAAAAAAAowEgBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-18T14:48:07.182Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "DL_SmartAppraisal.csproj",
-              "DocumentMoniker": "C:\\Users\\veereshp\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\DL_SmartAppraisal.csproj",
-              "RelativeDocumentMoniker": "DL_SmartAppraisal\\DL_SmartAppraisal.csproj",
-              "ToolTip": "C:\\Users\\veereshp\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\DL_SmartAppraisal.csproj",
-              "RelativeToolTip": "DL_SmartAppraisal\\DL_SmartAppraisal.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-08-10T15:03:20.987Z",
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\SmartAppraisal\\Views\\UserManagement\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "SmartAppraisal\\Views\\UserManagement\\ForgotPassword.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\SmartAppraisal\\Views\\UserManagement\\ForgotPassword.cshtml",
+              "RelativeToolTip": "SmartAppraisal\\Views\\UserManagement\\ForgotPassword.cshtml",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAwwK8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-18T14:47:23.159Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "BL_SmartAppraisal.csproj",
-              "DocumentMoniker": "C:\\Users\\veereshp\\source\\repos\\SmartAppraisal\\BL_SmartAppraisal\\BL_SmartAppraisal.csproj",
-              "RelativeDocumentMoniker": "BL_SmartAppraisal\\BL_SmartAppraisal.csproj",
-              "ToolTip": "C:\\Users\\veereshp\\source\\repos\\SmartAppraisal\\BL_SmartAppraisal\\BL_SmartAppraisal.csproj",
-              "RelativeToolTip": "BL_SmartAppraisal\\BL_SmartAppraisal.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-08-10T14:34:54.892Z",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\SmartAppraisal\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "SmartAppraisal\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\SmartAppraisal\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "SmartAppraisal\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-14T13:50:10.07Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserDetail.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Entities\\UserDetail.cs",
+              "RelativeDocumentMoniker": "DL_SmartAppraisal\\Entities\\UserDetail.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Entities\\UserDetail.cs",
+              "RelativeToolTip": "DL_SmartAppraisal\\Entities\\UserDetail.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAywB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-14T13:59:16.617Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 16,
+              "Title": "CaseStudyService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\BL_SmartAppraisal\\Services\\CaseStudyService.cs",
+              "RelativeDocumentMoniker": "BL_SmartAppraisal\\Services\\CaseStudyService.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\BL_SmartAppraisal\\Services\\CaseStudyService.cs",
+              "RelativeToolTip": "BL_SmartAppraisal\\Services\\CaseStudyService.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAwwF0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T03:06:19.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ICaseStudyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Interfaces\\ICaseStudyRepository.cs",
+              "RelativeDocumentMoniker": "DL_SmartAppraisal\\Interfaces\\ICaseStudyRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Interfaces\\ICaseStudyRepository.cs",
+              "RelativeToolTip": "DL_SmartAppraisal\\Interfaces\\ICaseStudyRepository.cs",
+              "ViewState": "AgIAAAgAAADw/////385wBQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T03:03:01.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ICaseStudyService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\BL_SmartAppraisal\\Interfaces\\ICaseStudyService.cs",
+              "RelativeDocumentMoniker": "BL_SmartAppraisal\\Interfaces\\ICaseStudyService.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\BL_SmartAppraisal\\Interfaces\\ICaseStudyService.cs",
+              "RelativeToolTip": "BL_SmartAppraisal\\Interfaces\\ICaseStudyService.cs",
+              "ViewState": "AgIAAAQAAAAwMzMzMzMzwBMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T02:56:55.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\SmartAppraisal\\Program.cs",
+              "RelativeDocumentMoniker": "SmartAppraisal\\Program.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\SmartAppraisal\\Program.cs",
+              "RelativeToolTip": "SmartAppraisal\\Program.cs",
+              "ViewState": "AgIAAKkAAAAAAAAAAAAuwLQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T15:24:13.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "20260819022645_AddCaseStudyReviewAndStatus.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Migrations\\20260819022645_AddCaseStudyReviewAndStatus.cs",
+              "RelativeDocumentMoniker": "DL_SmartAppraisal\\Migrations\\20260819022645_AddCaseStudyReviewAndStatus.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Migrations\\20260819022645_AddCaseStudyReviewAndStatus.cs",
+              "RelativeToolTip": "DL_SmartAppraisal\\Migrations\\20260819022645_AddCaseStudyReviewAndStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T02:26:45.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "DL_SmartAppraisal\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "DL_SmartAppraisal\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAawBAAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T15:06:26.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\BL_SmartAppraisal\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "BL_SmartAppraisal\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\BL_SmartAppraisal\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "BL_SmartAppraisal\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAwwA4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T04:27:51.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\BL_SmartAppraisal\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "BL_SmartAppraisal\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\BL_SmartAppraisal\\Services\\UserService.cs",
+              "RelativeToolTip": "BL_SmartAppraisal\\Services\\UserService.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAwwF4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T04:28:56.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SmartAppraisalDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Data\\SmartAppraisalDbContext.cs",
+              "RelativeDocumentMoniker": "DL_SmartAppraisal\\Data\\SmartAppraisalDbContext.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Data\\SmartAppraisalDbContext.cs",
+              "RelativeToolTip": "DL_SmartAppraisal\\Data\\SmartAppraisalDbContext.cs",
+              "ViewState": "AgIAAAIAAACAzczMzMwnwGQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T15:04:55.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\BL_SmartAppraisal\\Interfaces\\IEmailService.cs",
+              "RelativeDocumentMoniker": "BL_SmartAppraisal\\Interfaces\\IEmailService.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\BL_SmartAppraisal\\Interfaces\\IEmailService.cs",
+              "RelativeToolTip": "BL_SmartAppraisal\\Interfaces\\IEmailService.cs",
+              "ViewState": "AgIAABUAAAAAZmZmZmb+vx8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T14:24:01.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\SmartAppraisal\\Views\\UserManagement\\Create.cshtml",
+              "RelativeDocumentMoniker": "SmartAppraisal\\Views\\UserManagement\\Create.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\SmartAppraisal\\Views\\UserManagement\\Create.cshtml",
+              "RelativeToolTip": "SmartAppraisal\\Views\\UserManagement\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAN0BAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-14T14:24:40.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CaseStudyStatus.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Entities\\CaseStudyStatus.cs",
+              "RelativeDocumentMoniker": "DL_SmartAppraisal\\Entities\\CaseStudyStatus.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Entities\\CaseStudyStatus.cs",
+              "RelativeToolTip": "DL_SmartAppraisal\\Entities\\CaseStudyStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T14:51:02.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ResetPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\SmartAppraisal\\Views\\UserManagement\\ResetPassword.cshtml",
+              "RelativeDocumentMoniker": "SmartAppraisal\\Views\\UserManagement\\ResetPassword.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\SmartAppraisal\\Views\\UserManagement\\ResetPassword.cshtml",
+              "RelativeToolTip": "SmartAppraisal\\Views\\UserManagement\\ResetPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-18T14:48:42.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "DL_SmartAppraisal\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "DL_SmartAppraisal\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAEsAAAAAZ2ZmZmYkwFEAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T15:07:15.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\SmartAppraisal\\Views\\UserManagement\\Login.cshtml",
+              "RelativeDocumentMoniker": "SmartAppraisal\\Views\\UserManagement\\Login.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\SmartAppraisal\\Views\\UserManagement\\Login.cshtml",
+              "RelativeToolTip": "SmartAppraisal\\Views\\UserManagement\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANcBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-14T14:25:00.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\SmartAppraisal\\appsettings.json",
+              "RelativeDocumentMoniker": "SmartAppraisal\\appsettings.json",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\SmartAppraisal\\appsettings.json",
+              "RelativeToolTip": "SmartAppraisal\\appsettings.json",
+              "ViewState": "AgIAAAQAAAD4MjMzMzMrwBEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-10T15:21:53.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "EmailSettings.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\BL_SmartAppraisal\\Settings\\EmailSettings.cs",
+              "RelativeDocumentMoniker": "BL_SmartAppraisal\\Settings\\EmailSettings.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\BL_SmartAppraisal\\Settings\\EmailSettings.cs",
+              "RelativeToolTip": "BL_SmartAppraisal\\Settings\\EmailSettings.cs",
+              "ViewState": "AgIAAAYAAADgzMzMzMwiwBQAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T14:22:28.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\BL_SmartAppraisal\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "BL_SmartAppraisal\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\BL_SmartAppraisal\\Services\\EmailService.cs",
+              "RelativeToolTip": "BL_SmartAppraisal\\Services\\EmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T14:26:02.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ResetPasswordRequest.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Entities\\ResetPasswordRequest.cs",
+              "RelativeDocumentMoniker": "DL_SmartAppraisal\\Entities\\ResetPasswordRequest.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Entities\\ResetPasswordRequest.cs",
+              "RelativeToolTip": "DL_SmartAppraisal\\Entities\\ResetPasswordRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T14:31:43.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "VerifyOtpRequest.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Entities\\VerifyOtpRequest.cs",
+              "RelativeDocumentMoniker": "DL_SmartAppraisal\\Entities\\VerifyOtpRequest.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Entities\\VerifyOtpRequest.cs",
+              "RelativeToolTip": "DL_SmartAppraisal\\Entities\\VerifyOtpRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T14:30:56.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ForgotPasswordRequest.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Entities\\ForgotPasswordRequest.cs",
+              "RelativeDocumentMoniker": "DL_SmartAppraisal\\Entities\\ForgotPasswordRequest.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Entities\\ForgotPasswordRequest.cs",
+              "RelativeToolTip": "DL_SmartAppraisal\\Entities\\ForgotPasswordRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T14:30:23.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "OtpService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\BL_SmartAppraisal\\Services\\OtpService.cs",
+              "RelativeDocumentMoniker": "BL_SmartAppraisal\\Services\\OtpService.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\BL_SmartAppraisal\\Services\\OtpService.cs",
+              "RelativeToolTip": "BL_SmartAppraisal\\Services\\OtpService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwCUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T14:28:51.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IOtpService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\BL_SmartAppraisal\\Interfaces\\IOtpService.cs",
+              "RelativeDocumentMoniker": "BL_SmartAppraisal\\Interfaces\\IOtpService.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\BL_SmartAppraisal\\Interfaces\\IOtpService.cs",
+              "RelativeToolTip": "BL_SmartAppraisal\\Interfaces\\IOtpService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T14:27:56.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "20260818140241_AddPasswordResetFields.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Migrations\\20260818140241_AddPasswordResetFields.cs",
+              "RelativeDocumentMoniker": "DL_SmartAppraisal\\Migrations\\20260818140241_AddPasswordResetFields.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Migrations\\20260818140241_AddPasswordResetFields.cs",
+              "RelativeToolTip": "DL_SmartAppraisal\\Migrations\\20260818140241_AddPasswordResetFields.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAA9wDMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T14:02:41.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "20260817025552_AddCaseStudyTable.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Migrations\\20260817025552_AddCaseStudyTable.cs",
+              "RelativeDocumentMoniker": "DL_SmartAppraisal\\Migrations\\20260817025552_AddCaseStudyTable.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Migrations\\20260817025552_AddCaseStudyTable.cs",
+              "RelativeToolTip": "DL_SmartAppraisal\\Migrations\\20260817025552_AddCaseStudyTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T02:55:52.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\SmartAppraisal\\Views\\UserManagement\\Index.cshtml",
+              "RelativeDocumentMoniker": "SmartAppraisal\\Views\\UserManagement\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\SmartAppraisal\\Views\\UserManagement\\Index.cshtml",
+              "RelativeToolTip": "SmartAppraisal\\Views\\UserManagement\\Index.cshtml",
+              "ViewState": "AgIAAGkBAAAAAAAAAAAuwHwBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-14T14:24:22.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "20260815141620_AddEmailToUserDetail.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Migrations\\20260815141620_AddEmailToUserDetail.cs",
+              "RelativeDocumentMoniker": "DL_SmartAppraisal\\Migrations\\20260815141620_AddEmailToUserDetail.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Migrations\\20260815141620_AddEmailToUserDetail.cs",
+              "RelativeToolTip": "DL_SmartAppraisal\\Migrations\\20260815141620_AddEmailToUserDetail.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T14:16:21.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Entities\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "DL_SmartAppraisal\\Entities\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Entities\\LoginRequest.cs",
+              "RelativeToolTip": "DL_SmartAppraisal\\Entities\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-14T15:58:12.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "BL_SmartAppraisal.csproj",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\BL_SmartAppraisal\\BL_SmartAppraisal.csproj",
+              "RelativeDocumentMoniker": "BL_SmartAppraisal\\BL_SmartAppraisal.csproj",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\BL_SmartAppraisal\\BL_SmartAppraisal.csproj",
+              "RelativeToolTip": "BL_SmartAppraisal\\BL_SmartAppraisal.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-10T14:34:54.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "20260814154908_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Migrations\\20260814154908_InitialCreate.cs",
+              "RelativeDocumentMoniker": "DL_SmartAppraisal\\Migrations\\20260814154908_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Migrations\\20260814154908_InitialCreate.cs",
+              "RelativeToolTip": "DL_SmartAppraisal\\Migrations\\20260814154908_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-14T15:49:08.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\SmartAppraisal\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "SmartAppraisal\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\SmartAppraisal\\Properties\\launchSettings.json",
+              "RelativeToolTip": "SmartAppraisal\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-11T13:55:29.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\SmartAppraisal\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "SmartAppraisal\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\SmartAppraisal\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "SmartAppraisal\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-14T15:01:07.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ChangePassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\SmartAppraisal\\Views\\UserManagement\\ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "SmartAppraisal\\Views\\UserManagement\\ChangePassword.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\SmartAppraisal\\Views\\UserManagement\\ChangePassword.cshtml",
+              "RelativeToolTip": "SmartAppraisal\\Views\\UserManagement\\ChangePassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-14T14:25:22.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\SmartAppraisal\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "SmartAppraisal\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\SmartAppraisal\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "SmartAppraisal\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-14T15:01:10.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Entities\\Role.cs",
+              "RelativeDocumentMoniker": "DL_SmartAppraisal\\Entities\\Role.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Entities\\Role.cs",
+              "RelativeToolTip": "DL_SmartAppraisal\\Entities\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T15:05:52.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\SmartAppraisal\\Views\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "SmartAppraisal\\Views\\Users\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\SmartAppraisal\\Views\\Users\\Index.cshtml",
+              "RelativeToolTip": "SmartAppraisal\\Views\\Users\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-13T17:46:26.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "MSTestSettings.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\UT_SmartAppraisal\\MSTestSettings.cs",
+              "RelativeDocumentMoniker": "UT_SmartAppraisal\\MSTestSettings.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\UT_SmartAppraisal\\MSTestSettings.cs",
+              "RelativeToolTip": "UT_SmartAppraisal\\MSTestSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-13T17:09:52.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "SmartAppraisal.csproj",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\SmartAppraisal\\SmartAppraisal.csproj",
+              "RelativeDocumentMoniker": "SmartAppraisal\\SmartAppraisal.csproj",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\SmartAppraisal\\SmartAppraisal.csproj",
+              "RelativeToolTip": "SmartAppraisal\\SmartAppraisal.csproj",
+              "ViewState": "AgIAAA0AAAAAAAAAAABBwBgAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-11T05:53:10.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "UserServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\UT_SmartAppraisal\\UserServiceTests.cs",
+              "RelativeDocumentMoniker": "UT_SmartAppraisal\\UserServiceTests.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\UT_SmartAppraisal\\UserServiceTests.cs",
+              "RelativeToolTip": "UT_SmartAppraisal\\UserServiceTests.cs",
+              "ViewState": "AgIAAAAAAAAAMzMzMzMbwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-13T17:10:04.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "DL_SmartAppraisal.csproj",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\DL_SmartAppraisal.csproj",
+              "RelativeDocumentMoniker": "DL_SmartAppraisal\\DL_SmartAppraisal.csproj",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\DL_SmartAppraisal.csproj",
+              "RelativeToolTip": "DL_SmartAppraisal\\DL_SmartAppraisal.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-10T15:03:20.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "20260810163743_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\veereshp\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Migrations\\20260810163743_InitialCreate.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\veereshp\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Migrations\\20260810163743_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\veereshp\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Migrations\\20260810163743_InitialCreate.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\veereshp\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Migrations\\20260810163743_InitialCreate.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T16:37:43.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
               "Title": "Test1.cs",
-              "DocumentMoniker": "C:\\Users\\veereshp\\source\\repos\\SmartAppraisal\\UT_SmartAppraisal\\Test1.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\UT_SmartAppraisal\\Test1.cs",
               "RelativeDocumentMoniker": "UT_SmartAppraisal\\Test1.cs",
-              "ToolTip": "C:\\Users\\veereshp\\source\\repos\\SmartAppraisal\\UT_SmartAppraisal\\Test1.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\UT_SmartAppraisal\\Test1.cs",
               "RelativeToolTip": "UT_SmartAppraisal\\Test1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -303,11 +997,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 55,
               "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\veereshp\\source\\repos\\SmartAppraisal\\UL_SmartAppraisal\\Class1.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\UL_SmartAppraisal\\Class1.cs",
               "RelativeDocumentMoniker": "UL_SmartAppraisal\\Class1.cs",
-              "ToolTip": "C:\\Users\\veereshp\\source\\repos\\SmartAppraisal\\UL_SmartAppraisal\\Class1.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\UL_SmartAppraisal\\Class1.cs",
               "RelativeToolTip": "UL_SmartAppraisal\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -315,27 +1009,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 56,
               "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\veereshp\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Class1.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Class1.cs",
               "RelativeDocumentMoniker": "DL_SmartAppraisal\\Class1.cs",
-              "ToolTip": "C:\\Users\\veereshp\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Class1.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\SmartAppraisal\\DL_SmartAppraisal\\Class1.cs",
               "RelativeToolTip": "DL_SmartAppraisal\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-10T14:29:08.635Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\veereshp\\source\\repos\\SmartAppraisal\\BL_SmartAppraisal\\Class1.cs",
-              "RelativeDocumentMoniker": "BL_SmartAppraisal\\Class1.cs",
-              "ToolTip": "C:\\Users\\veereshp\\source\\repos\\SmartAppraisal\\BL_SmartAppraisal\\Class1.cs",
-              "RelativeToolTip": "BL_SmartAppraisal\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-10T14:28:33.883Z"
             }
           ]
         }

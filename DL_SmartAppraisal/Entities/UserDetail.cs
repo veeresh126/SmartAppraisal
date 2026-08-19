@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DL_SmartAppraisal.Entities
+﻿namespace DL_SmartAppraisal.Entities
 {
     public class UserDetail
     {
@@ -13,6 +7,8 @@ namespace DL_SmartAppraisal.Entities
         public string UserId { get; set; } = string.Empty;
 
         public string Name { get; set; } = string.Empty;
+
+        public string Email { get; set; } = string.Empty;
 
         public string Mobile { get; set; } = string.Empty;
 
@@ -25,7 +21,11 @@ namespace DL_SmartAppraisal.Entities
         public DateTime CreatedDate { get; set; }
 
         public DateTime? ModifiedDate { get; set; }
-        public string Email { get; set; } = string.Empty;
+
         public string Password { get; set; } = string.Empty;
+
+        public string? PasswordResetToken { get; set; }
+
+        public DateTime? PasswordResetTokenExpiry { get; set; }
     }
 }
